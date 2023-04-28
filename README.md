@@ -1,5 +1,3 @@
-# Restaurant-Project
-
 <div align="center">
 <a name="readme-top" height="0"></a>
   <a href="https://github.com/hyradar/Seafood-Restaurant">
@@ -80,6 +78,12 @@ This site uses **one** breakpoint, with two media queries. I did it this way as 
 ## Lessons Learned:
 
 In this project I learned how to deploy a customized Webpack configuration, create a fully responsive site with only one breakpoint, and how to connect everything together in a MVC Pattern. Additionally I created some of my own Design assets and implemented them into the project. Finally, I took advantage of the use of array methods to create the filterable menu which is a function that offers a solution to a real world problem.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Notes:
+
+Due to issues with Github, I had to move this code to a new repository. You can see the previous commits for this project <a href="https://github.com/hyradar/restaurant"><p>here</p></a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
