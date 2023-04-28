@@ -29,6 +29,7 @@
     </li>
     <li><a href="#optimizations">Optimizations</a></li>
     <li><a href="#lessons-learned">Lessons Learned</a></li>
+    <li><a href="#notes">Notes</a></li>
     <li><a href="#contact">Contact</a></li>
       </ul>
     </li>
@@ -83,7 +84,7 @@ In this project I learned how to deploy a customized Webpack configuration, crea
 
 ## Notes:
 
-Due to issues with Github, I had to move this code to a new repository. You can see the previous commits for this project <a href="https://github.com/hyradar/restaurant"><p>here</p></a>.
+Due to issues with Github, I had to move this code to a new repository. You can see the previous commits for this project <a href="https://github.com/hyradar/restaurant">here</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
