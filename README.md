@@ -11,7 +11,7 @@
     <a href="https://github.com/hyradar/Seafood-Restaurant"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://hyradar.github.io/Restaurant-Project">View Demo</a>
+    <a href="https://hyradar.github.io/Seafood-Restaurant">View Demo</a>
     ·
     <a href="https://github.com/hyradar/Seafood-Restaurant/issues">Report Bug</a>
     ·
@@ -39,60 +39,47 @@
 
 ## About this Project
 
-I have a passion for learning languages, especially French. In the future, I'd like to build a full-fledged language-learning app, and I've taken this opportunity during my front-end development journey to build a web-app to both showcase my skills, as well as practice building functionality that I'll use in my future projects.
-
-**Creation of a Deck, Studying it, and Resetting user data:**
-  <img src="https://github.com/hyradar/StudyDecks/blob/main/ReadMeImages/demo.gif" alt="Gif of Study Decks Live Demo" width="90vw"/>
+A problem I encountered many times in the restaurant industry is the difficulty people have understanding their menu options at restaurants. This website demonstrates an easy way to allow users to easily know what they are able to eat without having to hunt around for labels or ask their server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built With:
 
-**Tech:** HTML, SCSS, JavaScript, Webpack
+**Tech:** HTML, CSS, JavaScript, Webpack
 <br>
-**Design:** MVC, Observer, Single Page Application
+**Design:** MVC, Single Page Application, OOP
 
 **HTML:**
 
 HTML is dynamically rendered with Javascript and focuses on using semantic elements to comply with Web Content Accessibility Guidelines.
 
-**SCSS:** 
+**CSS:** 
 
-Responsive design without media queries. Mixins and modules were used to follow the DRY principle and reduce file sizes. I used Andy Bell's CSS [Reset](https://andy-bell.co.uk/a-modern-css-reset/) to reduce browser inconsistencies.
+Responsive design with only one breakpoint. Mixins and modules were used to follow the DRY principle and reduce file sizes. I used Andy Bell's CSS [Reset](https://andy-bell.co.uk/a-modern-css-reset/) to reduce browser inconsistencies.
 
 **Javascript:** 
 
-I used the WebStorage API to store user decks locally on their device. For form validation I  implemented the Constraint Validation API to display custom error messages for each form input. Upon successful submission of the form, I convert the input values into a data object using the FormData API and send it to the model to create a Deck object. Additionally, I used a function from the date-fns library to ensure that the chosen due-date for the deck is in the future.
-
-**Resetting user data in local storage:**
-  <img src="https://github.com/hyradar/StudyDecks/blob/main/ReadMeImages/resetingdata.gif" alt="Gif showing demo of resetting local storage" width="90vw"/>
+To filter the menu, each food item has an object attached to it with filters such as isVegetarian which are toggled based off of the user input. An array method is then used to iterate over the objects in the menu to show the correct items.
 
 **Webpack**
 
-I utilized the Webpack Dev Server for better efficiency when building my project. I also configured the loaders to be able to bundle all assets into a single .js file.
+I utilized the Webpack Dev Server for better efficiency when building my project. I also configured the loaders to be able to bundle all assets into a single Javascript file.
 
 **Design Pattern**
 
-In this Single Page Application, I used the Model-View-Controller design pattern as the foundation for the project, and implemented the Observer pattern to update other parts of the page when there is new data to display.
-
-**The View updating the screen via the Observer:**
-  <img src="https://github.com/hyradar/StudyDecks/blob/main/ReadMeImages/addingdeck.gif" alt="Demo of the view updating the screen via the observer pattern" width="90vw"/>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+In this Single Page Application, I used the Model-View-Controller design pattern as the foundation for the project, and separated the logic for each individual page into their own Javascript files.
 
 ## Optimizations
 
 ### Responsiveness
 
-This site uses **zero** media queries. Instead, I used other SCSS techniques such as rem units and functions like clamp() and min() to give the site natural responsiveness.
-
-**Responsiveness without media queries:**
-<img src="https://github.com/hyradar/StudyDecks/blob/main/ReadMeImages/studydecksreponsivedesign.gif" alt="Gif of Study Decks Live Demo" width="90vw"/>
+This site uses **one** breakpoint, with two media queries. I did it this way as I wanted to demonstrate my ability to not have to rely on several breakpoints in order to make a fully responsive website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Lessons Learned:
 
-This project I implemented techniques to write cleaner code I learned from "Clean Code" by Robert Martin. I also implemented the Observer Pattern for the first time within a Model-View-Controller framework. Finally, I utilized WebStorage, Constraint Validation, and Form Data APIs in addition to the data-fns external library to add more complexity to the application.
+In this project I learned how to deploy a customized Webpack configuration, create a fully responsive site with only one breakpoint, and how to connect everything together in a MVC Pattern. Additionally I created some of my own Design assets and implemented them into the project. Finally, I took advantage of the use of array methods to create the filterable menu which is a function that offers a solution to a real world problem.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
