@@ -135,10 +135,6 @@ ul {
   border: none;
 }
 
-.mobilemenubutton:hover {
-  cursor: pointer;
-}
-
 .dropdown.active > .dropdown-menu {
   opacity: 1;
   transform: translateY(0);
@@ -471,6 +467,7 @@ figure {
 #Homebutton:hover,
 #Menubutton:hover,
 #Contactbutton:hover {
+  cursor: pointer;
   color: var(--clr-accent-1) !important;
 }
 
