@@ -3,7 +3,7 @@
 <div align="center">
 <a name="readme-top" height="0"></a>
   <a href="https://github.com/hyradar/Seafood-Restaurant">
-    <img src="https://github.com/hyradar/Seafood-Restaurant/blob/main/src/images/seafraicon.ico" alt="Seafra Seafood Logo" width="40%" height="40%">
+    <img src="https://github.com/hyradar/Seafood-Restaurant/blob/main/src/images/Seafralogowhite.svg" alt="Seafra Seafood Logo" width="40%" height="40%">
   </a>
   <p align="center">
     A Seafood Restaurant Website which allows you to filter the menu with your dietary restrictions
